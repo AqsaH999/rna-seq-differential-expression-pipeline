@@ -4,7 +4,7 @@
 This repository implements a reproducible RNA-seq differential expression workflow using **Galaxy** and **R (DESeq2)**.  
 The pipeline processes raw FASTQ reads through quality control, alignment, quantification, and statistical analysis to identify differentially expressed genes.
 
----
+
 
 ## 📌 Project Overview
 - **Input**: Raw FASTQ RNA-seq data (small test dataset from [SRA](https://www.ncbi.nlm.nih.gov/sra) or Galaxy Training Network).  
@@ -17,7 +17,7 @@ The pipeline processes raw FASTQ reads through quality control, alignment, quant
 
 - **Output**: List of differentially expressed genes + plots for interpretation.
 
----
+
 
 ## 🛠️ Tools & Technologies
 - **Linux/Unix** (file handling, pipeline scripting)
@@ -26,7 +26,7 @@ The pipeline processes raw FASTQ reads through quality control, alignment, quant
 - **Python** (optional: matplotlib/seaborn for visualization)
 - **GitHub** (version control & reproducibility)
 
----
+
 
 ## 📂 Repository Structure
 rna-seq-differential-expression-pipeline/
