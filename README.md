@@ -5,7 +5,7 @@ The pipeline processes raw FASTQ reads through quality control, alignment, quant
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 - **Input**: Raw FASTQ RNA-seq data (test dataset from [SRA](https://www.ncbi.nlm.nih.gov/sra) or Galaxy Training Network)  
 - **Pipeline Steps**:
   1. Quality Control — *FastQC, Trimmomatic*  
@@ -18,7 +18,7 @@ The pipeline processes raw FASTQ reads through quality control, alignment, quant
 
 ---
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - **Galaxy** — workflow execution  
 - **Linux/Unix** — file handling, scripting  
 - **R / Bioconductor** — DESeq2, ggplot2, pheatmap  
@@ -27,7 +27,7 @@ The pipeline processes raw FASTQ reads through quality control, alignment, quant
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 rna-seq-differential-expression-pipeline/
 │── data/ # test FASTQ files or SRA accession IDs
 │── scripts/ # preprocessing/QC shell scripts
@@ -40,22 +40,22 @@ rna-seq-differential-expression-pipeline/
 
 ---
 
-## ⚙️ Requirements
+## ⚙ Requirements
 - Python ≥ 3.8  
 - R ≥ 4.0 with **DESeq2** installed  
 - Galaxy or local tools: FastQC, HISAT2, FeatureCounts  
 
 ---
 
-## 🚀 Usage
+## � Usage
 Clone this repository:
 ```bash
 git clone https://github.com/AqsaH999/rna-seq-differential-expression-pipeline.git
 cd rna-seq-differential-expression-pipeline
 
-📜 License
+ License
 This project is licensed under the MIT License.
 See the LICENSE file for details.
-👩‍🔬 Author: Aqsa Hamdani
-📌 Master's in Bioinformatics | RNA-seq & Differential Expression Analysis
+ Author: Aqsa Hamdani
+ Master's in Bioinformatics | RNA-seq & Differential Expression Analysis
 
