@@ -1,0 +1,21 @@
+name: rnaseq-env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - fastqc
+  - trimmomatic
+  - hisat2
+  - star
+  - subread      # featureCounts
+  - samtools
+  - multiqc
+  - sra-tools
+  - r-base=4.2
+  - r-deseq2
+  - r-ggplot2
+  - r-pheatmap
+  - r-tidyverse
+  - r-apeglm
