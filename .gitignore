@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.egg-info/
+.env
+.venv/
+build/
+dist/
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+.Ruserdata
+*.Rproj
+*.Rhistory
+*.RData
+*.Rout
+.Rapp.history
+
+# OS / Misc
+.DS_Store
+Thumbs.db
