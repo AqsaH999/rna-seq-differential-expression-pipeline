@@ -1,0 +1,5 @@
+sample,fastq_R1,fastq_R2,condition,batch,sra_accession
+sample1,SRR1039508_1.fastq.gz,SRR1039508_2.fastq.gz,control,1,SRR1039508
+sample2,SRR1039509_1.fastq.gz,SRR1039509_2.fastq.gz,control,1,SRR1039509
+sample3,SRR1039510_1.fastq.gz,SRR1039510_2.fastq.gz,treated,1,SRR1039510
+sample4,SRR1039511_1.fastq.gz,SRR1039511_2.fastq.gz,treated,1,SRR1039511
