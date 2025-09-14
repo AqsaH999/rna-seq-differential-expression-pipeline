@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this RNA-seq Differential Expression Pipeline in your work, please cite it as below."
+authors:
+  - family-names: Hamdani
+    given-names: Aqsa
+title: "RNA-seq Differential Expression Pipeline"
+version: "1.0.0"
+date-released: 2025-09-14
+doi: ""
+license: MIT
+repository-code: "https://github.com/AqsaH999/rna-seq-differential-expression-pipeline"
+keywords:
+  - RNA-seq
+  - Bioinformatics
+  - Differential Expression
+  - Galaxy
+  - DESeq2
