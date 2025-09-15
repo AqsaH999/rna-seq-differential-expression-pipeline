@@ -1,21 +1,32 @@
-name: rnaseq-env
+nname: rnaseq-env
 channels:
   - bioconda
   - conda-forge
   - defaults
 dependencies:
+  # Python
   - python=3.8
-  - fastqc
-  - trimmomatic
-  - hisat2
-  - star
-  - subread      # featureCounts
-  - samtools
-  - multiqc
-  - sra-tools
+  - pip
+  - pip:
+      - matplotlib
+      - seaborn
+      - jupyter
+
+  # RNA-seq tools
+  - fastqc=0.11.9
+  - trimmomatic=0.39
+  - hisat2=2.2.1
+  - star=2.7.10a
+  - subread=2.0.3        # featureCounts
+  - samtools=1.15
+  - multiqc=1.14
+  - sra-tools=3.0.0
+
+  # R + Bioconductor
   - r-base=4.2
-  - r-deseq2
+  - bioconductor-deseq2=1.38.0
   - r-ggplot2
   - r-pheatmap
   - r-tidyverse
-  - r-apeglm
+  - bioconductor-apeglm
+
