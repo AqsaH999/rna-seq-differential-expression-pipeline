@@ -27,24 +27,6 @@ The pipeline processes raw FASTQ reads through quality control, alignment, quant
 
 ---
 
-##  Repository Structure
-rna-seq-differential-expression-pipeline/
-│── data/ # test FASTQ files or SRA accession IDs
-
-│── scripts/ # preprocessing/QC shell scripts
-
-│── notebooks/ # R notebooks (DESeq2 analysis)
-
-│── workflow/ # Galaxy workflow export (.ga file)
-
-│── results/ # output plots (volcano, PCA, heatmap)
-
-│── environment.yml # Conda environment file (dependencies)
-
-│── README.md # project documentation
-
-
----
 
 ## ⚙ Requirements
 - Python ≥ 3.8  
@@ -57,15 +39,25 @@ rna-seq-differential-expression-pipeline/
 The repository is organized as follows:
 
 rna-seq-differential-expression-pipeline/
+
 │── data/ # Raw FASTQ files, reference genome, metadata (sample_info.csv)
+
 │── scripts/ # Shell scripts for QC, trimming, alignment, counting
+
 │── notebooks/ # R/Python notebooks for analysis & visualization
+
 │── workflow/ # Galaxy workflow exports (.ga files) [optional]
+
 │── results/ # Output files: count matrix, plots (PCA, volcano, heatmap)
+
 │── CITATION.cff # Citation metadata for this repository
+
 │── LICENSE # Open-source license (MIT)
+
 │── README.md # Project documentation
+
 │── .gitignore # Ignored files for Python & R
+
 │── environment.yml # Conda environment specification
 
 
