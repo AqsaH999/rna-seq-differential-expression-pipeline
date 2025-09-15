@@ -30,11 +30,17 @@ The pipeline processes raw FASTQ reads through quality control, alignment, quant
 ##  Repository Structure
 rna-seq-differential-expression-pipeline/
 │── data/ # test FASTQ files or SRA accession IDs
+
 │── scripts/ # preprocessing/QC shell scripts
+
 │── notebooks/ # R notebooks (DESeq2 analysis)
+
 │── workflow/ # Galaxy workflow export (.ga file)
+
 │── results/ # output plots (volcano, PCA, heatmap)
+
 │── environment.yml # Conda environment file (dependencies)
+
 │── README.md # project documentation
 
 
