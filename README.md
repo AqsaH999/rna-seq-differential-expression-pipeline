@@ -34,7 +34,7 @@ The pipeline processes raw FASTQ reads through quality control, alignment, quant
 - Galaxy or local tools: FastQC, HISAT2, FeatureCounts  
 
 ---
-## 📂 Repository Structure
+##  Repository Structure
 
 The repository is organized as follows:
 
@@ -61,7 +61,7 @@ rna-seq-differential-expression-pipeline/
 │── environment.yml # Conda environment specification
 
 
-## 🚀 Usage
+##  Usage
 
 Clone this repository and navigate to the project directory:
 
