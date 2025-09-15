@@ -28,7 +28,7 @@ The pipeline processes raw FASTQ reads through quality control, alignment, quant
 ---
 
 
-## ⚙ Requirements
+##  Requirements
 - Python ≥ 3.8  
 - R ≥ 4.0 with **DESeq2** installed  
 - Galaxy or local tools: FastQC, HISAT2, FeatureCounts  
